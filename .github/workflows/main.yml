@@ -1,4 +1,4 @@
-name: Run Greet Action
+name: Run Java Action
 
 on:
   push:
