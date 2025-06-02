@@ -1,0 +1,14 @@
+{
+  "name": "greet-action",
+  "version": "1.0.0",
+  "description": "A simple custom GitHub Action to greet the user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
+  "author": "Raju Sankati",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.0"
+  }
+}

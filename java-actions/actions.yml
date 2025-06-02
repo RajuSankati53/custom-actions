@@ -1,0 +1,14 @@
+name: "Greet Action"
+description: "A simple custom GitHub Action to greet the user"
+author: "Your Name"
+inputs:
+  name:
+    description: "The name of the person to greet"
+    required: true
+    default: "World"
+outputs:
+  message:
+    description: "The greeting message that was printed"
+runs:
+  using: "node16"
+  main: "index.js"
