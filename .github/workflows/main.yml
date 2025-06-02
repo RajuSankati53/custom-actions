@@ -3,7 +3,7 @@ name: Run Greet Action
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   greet-job:
